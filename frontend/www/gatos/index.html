@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DEMO Gatos</title>
+        <script src="script.js" defer></script>
+	</head>
+	<body>
+		<h1>
+			Favor de ver que la URL cambia y permite tener el frontend de esta
+			forma
+		</h1>
+		<h2>Invocar gatos</h2>
+
+		<h2>Invocar gatos por raza</h2>
+		<select style="display: block">
+		</select>
+        <br>
+        <button>Raza</button>
+        <div id="raza">
+
+        </div>
+
+		<h2>Invocar gatos por pelaje</h2>
+		<select style="display: block">
+		</select>
+        <br>
+        <button>Pelaje</button>
+        <div id="pelaje">
+
+        </div>
+
+		<h2>Invocar gatos por raza & pelaje</h2>
+		<div style="display: grid; grid-template-columns: 1fr 1fr; row-gap: 0.5rem; max-width: 30rem; padding: 1rem 0rem 1rem 0rem ">
+			<h3 style="grid-column: 1; margin: 0;">Raza</h3>
+			<select style="max-width: 5rem; max-height: 2rem; grid-column: 1;">
+			</select>
+			<h3 style="grid-column: 2; grid-row: 1; margin: 0;">Pelaje</h3>
+			<select style="max-width: 5rem; max-height: 2rem; grid-column: 2;">
+			</select>
+		</div>
+        <button>Raza & Pelaje</button>
+        <div id="raza-pelaje">
+
+        </div>
+	</body>
+</html>

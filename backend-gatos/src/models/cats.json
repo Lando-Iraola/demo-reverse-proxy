@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Waltito the dorito",
+        "age": 4,
+        "breed": 0,
+        "coat": 0
+    },
+    {
+        "name": "Canela",
+        "age": 10,
+        "breed": 0,
+        "coat": 1
+    },
+    {
+        "name": "Inarius",
+        "age": 10,
+        "breed": 1,
+        "coat": 1
+    }
+]

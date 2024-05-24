@@ -1,0 +1,24 @@
+FROM alpine:3.19.1 as initial
+RUN apk add nodejs npm curl
+WORKDIR /app
+COPY package-lock.json .
+COPY package.json .
+RUN npm install
+
+FROM initial as build
+COPY ./src/models ./src/models
+COPY ./src/modules ./src/modules
+COPY ./src/app.controller.ts ./src
+COPY ./src/app.module.ts ./src
+COPY ./src/app.service.ts ./src
+COPY ./src/main.ts ./src
+COPY ./test .
+COPY .eslintrc.js .
+COPY nest-cli.json .
+COPY tsconfig.build.json .
+COPY tsconfig.json .
+RUN npm run build
+
+FROM build as deploy
+RUN find /app -type f | grep -vE 'node_modules|dist|package-lock.json|package.json' | xargs rm
+CMD [ "npm", "run", "start:prod" ]

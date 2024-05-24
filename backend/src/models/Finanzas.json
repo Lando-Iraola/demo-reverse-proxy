@@ -1,0 +1,142 @@
+[
+    {
+        "month": "enero",
+        "year": 2024,
+        "timestamp": "2024-01-31T22:03:45.613Z",
+        "movimientos": [
+            {
+                "id": 0,
+                "monto": "+1000",
+                "motivo": "ventas"
+            },
+            {
+                "id": 1,
+                "monto": "-100",
+                "motivo": "sueldo"
+            },
+            {
+                "id": 2,
+                "monto": "-200",
+                "motivo": "sueldo"
+            },
+            {
+                "id": 3,
+                "monto": "-50",
+                "motivo": "compras"
+            }
+        ]
+    },
+    {
+        "month": "febrero",
+        "year": 2024,
+        "timestamp": "2024-02-29T22:03:45.613Z",
+        "movimientos": [
+            {
+                "id": 0,
+                "monto": "+1000",
+                "motivo": "ventas"
+            },
+            {
+                "id": 1,
+                "monto": "-100",
+                "motivo": "sueldo"
+            },
+            {
+                "id": 2,
+                "monto": "-200",
+                "motivo": "sueldo"
+            },
+            {
+                "id": 3,
+                "monto": "-200",
+                "motivo": "sueldo"
+            },
+            {
+                "id": 4,
+                "monto": "-50",
+                "motivo": "compras"
+            }
+        ]
+    },
+    {
+        "month": "marzo",
+        "year": 2024,
+        "timestamp": "2024-02-31T22:03:45.613Z",
+        "movimientos": [
+            {
+                "id": 0,
+                "monto": "+1400",
+                "motivo": "ventas"
+            },
+            {
+                "id": 1,
+                "monto": "-100",
+                "motivo": "sueldo"
+            },
+            {
+                "id": 2,
+                "monto": "-200",
+                "motivo": "sueldo"
+            },
+            {
+                "id": 3,
+                "monto": "-200",
+                "motivo": "sueldo"
+            }
+        ]
+    },
+    {
+        "month": "abril",
+        "year": 2024,
+        "timestamp": "2024-02-30T22:03:45.613Z",
+        "movimientos": [
+            {
+                "id": 0,
+                "monto": "+1350",
+                "motivo": "ventas"
+            },
+            {
+                "id": 1,
+                "monto": "-100",
+                "motivo": "sueldo"
+            },
+            {
+                "id": 2,
+                "monto": "-200",
+                "motivo": "sueldo"
+            },
+            {
+                "id": 3,
+                "monto": "-200",
+                "motivo": "sueldo"
+            }
+        ]
+    },
+    {
+        "month": "mayo",
+        "year": 2024,
+        "timestamp": "2024-02-31T22:03:45.613Z",
+        "movimientos": [
+            {
+                "id": 0,
+                "monto": "+1400",
+                "motivo": "ventas"
+            },
+            {
+                "id": 1,
+                "monto": "-100",
+                "motivo": "sueldo"
+            },
+            {
+                "id": 2,
+                "monto": "-200",
+                "motivo": "sueldo"
+            },
+            {
+                "id": 3,
+                "monto": "-200",
+                "motivo": "sueldo"
+            }
+        ]
+    }
+]

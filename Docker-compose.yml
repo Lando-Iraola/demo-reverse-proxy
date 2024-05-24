@@ -1,0 +1,18 @@
+name: posibilidad-conf-nginx
+services:
+  gatos:
+    build: ./backend-gatos
+  perros:
+    build: ./backend-perros
+  backend:
+    build: ./backend
+  frontend:
+    build: ./frontend
+  reverse-proxy:
+    image: nginx:1.25.1
+    ports:
+      - "80:80"
+    volumes:
+      - type: bind
+        source: ./reverse-proxy-config
+        target: /etc/nginx/conf.d
